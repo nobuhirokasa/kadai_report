@@ -26,17 +26,18 @@ public class PropertiesListener implements ServletContextListener {
         // TODO Auto-generated constructor stub
     }
 
-    /**
+	/**
      * @see ServletContextListener#contextDestroyed(ServletContextEvent)
      */
     public void contextDestroyed(ServletContextEvent arg0)  {
          // TODO Auto-generated method stub
     }
 
-    /**
+	/**
      * @see ServletContextListener#contextInitialized(ServletContextEvent)
      */
     public void contextInitialized(ServletContextEvent arg0)  {
+         // TODO Auto-generated method stub
         ServletContext context = arg0.getServletContext();
 
         String path = context.getRealPath("/META-INF/application.properties");
@@ -55,4 +56,7 @@ public class PropertiesListener implements ServletContextListener {
         } catch(IOException e) {}
     }
 
-}
+
+
+    }
+
