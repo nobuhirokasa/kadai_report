@@ -1,0 +1,23 @@
+# compiled class file
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Maven
+target/
+
+# eclipse
+.classpathy
+.project
+.settings/
+build/
+
+# OS Files
+Thumbs.db
+.DS_Store
+
+# Application Properties
+WebContent/META-INF/application.properties
